@@ -10,11 +10,15 @@
 <body>
   <div class="wrapper">
     <div class="card">
-      <h1 class="card__title">Palindrome checker</h1>
-      <p class="card__intro"></p>
-      <input type="text" class="card__input">
-      <button type="button" class="card__btn">Check Palindrome</button>
-      <p class="card__result"></p>
+      <div class="card__header">
+        <h1 class="card__title">Palindrome Checker</h1>
+        <p class="card__text">A palindrome is a word, number, phrase, or other sequence of symbols that reads the same backwards as forwards, e.g. radar, madam, 191.</p>
+      </div>
+      <div class="card__content">
+        <input type="text" class="card__item card__input" placeholder="Enter text or number">
+        <button type="button" class="card__item card__btn">Check Palindrome</button>
+      </div>
+      <p id="sequence" class="card__text text-result">Yes!</p>
     </div>
   </div>
 
