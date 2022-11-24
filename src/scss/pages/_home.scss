@@ -81,8 +81,8 @@
       background-color: $pink-light;
       cursor: default;
     }
-    &:focus,
-    &:hover {
+    &:not(:disabled):focus,
+    &:not(:disabled):hover {
       background-color: $red-light;
     }
   }

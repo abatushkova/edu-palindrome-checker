@@ -217,7 +217,7 @@ a {
   background-color: #ffd9d9;
   cursor: default;
 }
-.card__button:focus, .card__button:hover {
+.card__button:not(:disabled):focus, .card__button:not(:disabled):hover {
   background-color: #b75254;
 }
 
