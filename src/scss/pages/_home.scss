@@ -1,6 +1,4 @@
-@import './fonts/fonts';
-@import './scss/normalize';
-@import './scss/mixins';
+@use '../abstracts' as *;
 
 .wrapper {
   display: flex;
@@ -9,7 +7,7 @@
   justify-content: center;
   height: 100%;
   padding: 0 10px;
-  background-color: #ffd9d9;
+  background-color: $pink-light;
 }
 
 .card {
@@ -19,7 +17,7 @@
   padding: 22px 32px;
   border-radius: 16px;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: $white;
 
   &__header {
     margin-bottom: 20px;
@@ -41,7 +39,7 @@
   }
 
   &__text {
-    color: #444;
+    color: $gray-4;
     font: 1.4rem/2rem a;
     font-family: inherit;
 
@@ -63,25 +61,29 @@
   }
 
   &__input {
-    border: 1px solid #ccc;
+    border: 1px solid $gray-c;
     &::placeholder {
-      color: #ccc;
+      color: $gray-c;
     }
     &:focus {
-      border-color: #111;
+      border-color: $gray-1;
     }
   }
 
   &__button {
     border: none;
-    background-color: #9c4245;
-    color: #fff;
+    background-color: $red;
+    color: $white;
     font-weight: 500;
     transition: background-color 300ms cubic-bezier(0.2, 0, 0, 1);
     cursor: pointer;
     &:disabled {
-      background-color: #ffd9d9;
+      background-color: $pink-light;
       cursor: default;
+    }
+    &:focus,
+    &:hover {
+      background-color: $red-light;
     }
   }
 }
@@ -93,7 +95,7 @@
 }
 
 .highlight {
-  color: #9c4245;
+  color: $red;
 }
 
 .hide {

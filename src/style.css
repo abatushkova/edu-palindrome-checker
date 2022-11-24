@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap';
 html, body {
   height: 100%;
 }
@@ -216,6 +216,9 @@ a {
 .card__button:disabled {
   background-color: #ffd9d9;
   cursor: default;
+}
+.card__button:focus, .card__button:hover {
+  background-color: #b75254;
 }
 
 .result {
