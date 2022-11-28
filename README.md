@@ -3,6 +3,6 @@ Educational project with simple palindrome checker. Add a word, number, phrase, 
 [Live Demo](https://abatushkova.github.io/edu-palindrome-checker/)
 
 ## Built with
-- flexbox layout
-- sass
-- js
+- Flexbox layout
+- SASS (.scss)
+- JavaScript
