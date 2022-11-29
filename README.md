@@ -4,5 +4,5 @@ Educational project with simple palindrome checker. Add a word, number, phrase, 
 
 ## Built with
 - Flexbox layout
-- SASS (.scss)
+- Sass (.scss)
 - JavaScript
