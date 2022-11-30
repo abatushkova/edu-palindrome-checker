@@ -5,7 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Palindrome Checker</title>
-  <link rel="stylesheet" href="./src/index.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./src/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./src/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./src/favicons/site.webmanifest">
+  <link rel="icon" href="./src/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffd9d9">
+  <meta name="msapplication-TileImage" content="./src/favicons/mstile-180x180.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="./src/index.min.css">
 </head>
 <body>
   <div class="wrapper">
@@ -15,7 +25,7 @@
         <p class="card__text">A palindrome is a word, number, phrase, or other sequence of symbols that reads the same backwards as forwards, e.g. radar, madam, 191.</p>
       </div>
       <div class="card__content">
-        <input type="text" id="input" class="card__ui card__ui-input" placeholder="Enter text or number">
+        <input type="text" id="input" class="card__ui card__ui-input" placeholder="Enter text or number" autocorrect="off">
         <button type="button" id="check" class="card__ui card__ui-button" disabled>Check Palindrome</button>
       </div>
       <p id="result" class="card__text card__output hide"></p>
